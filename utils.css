@@ -1,0 +1,18 @@
+/* @import url("https://fonts.googleapis.com/css2?family=Rubik+Vinyl&family=Wallpoet&display=swap"); */
+* {
+  font-family: "Roboto", sans-serif;
+  margin: 0;
+  padding: 0;
+}
+.section {
+  margin-top: 50px;
+  display: flex;
+  align-content: center;
+  justify-content: center;
+  text-align: center;
+  /* margin: */
+  /* height: ; */
+}
+.result {
+  height: 100px;
+}

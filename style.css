@@ -1,0 +1,64 @@
+.calculator {
+  background-color: black;
+  border-radius: 15px;
+  padding-bottom: 25px;
+}
+.calculator h1 {
+  border: 30px ridge rgb(255, 166, 0);
+  border-radius: 15px 15px 0 0;
+  font-size: 20px;
+  font-weight: 400;
+  padding: 10px 0;
+  color: white;
+}
+.input-box {
+  color: white;
+  text-align: right;
+  border-radius: 5px;
+  font-size: 20px;
+  padding: 5px 0;
+  margin: 15px;
+  background-color: rgb(0, 0, 0);
+  border: none;
+  outline: none;
+}
+button {
+  cursor: pointer;
+  margin: 2px;
+  font-size: 20px;
+  border-radius: 50%;
+  border: none;
+  color: white;
+  width: 50px;
+  height: 50px;
+}
+.operators {
+  background-color: orange;
+}
+.operators:hover {
+  background-color: rgb(227, 151, 9);
+}
+.numbers {
+  background-color: rgb(50, 50, 50);
+}
+.numbers:hover {
+  background-color: rgb(45, 45, 45);
+}
+.num0 {
+  width: 100px;
+  border-radius: 25px;
+  width: 104px;
+  text-align: left;
+  padding: 0 20px;
+}
+.delete,
+.cancel,
+.modulus,
+.new {
+  background-color: rgb(170, 170, 170);
+  color: black;
+  font-weight: 500;
+}
+.delete span {
+  font-size: 0;
+}
