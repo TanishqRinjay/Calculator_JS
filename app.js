@@ -17,7 +17,7 @@ Array.from(buttons).forEach((button) => {
       string = 0;
       document.querySelector("input").value = 0;
     } else if (e.target.innerHTML == "=") {
-      string = eval(string)+4;
+      string = eval(string)+0.4;
       document.querySelector("input").value = string;
     } else {
       if (string == "0" || string == 0) {
